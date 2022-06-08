@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
-import Header from "../Header";
 import Footer from "../Footer";
 
 type Props = {
@@ -18,7 +17,6 @@ const Layout = ({
     <Head>
       <title>{title}</title>
     </Head>
-    <Header />
     <main className="min-h-screen container mx-auto pt-28">{children}</main>
     <Footer />
   </div>

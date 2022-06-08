@@ -1,11 +1,16 @@
 import type { NextPage } from "next";
-import Layout from "@/components/layouts/Layout";
+import Iniciatives from "../components/Iniciativas";
+import PlanBar from "../components/PlanBar";
+import Slider from "../components/MostRecent";
+import MostRecent from "../components/MostRecent";
 
 const Home: NextPage = () => {
   return (
-    <Layout title="Home page">
-      <h1 className="text-red-500">Home Page</h1>
-    </Layout>
+    <>
+      <Iniciatives />
+      <PlanBar />
+      <MostRecent />
+    </>
   );
 };
 

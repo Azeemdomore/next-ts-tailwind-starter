@@ -14,11 +14,12 @@ module.exports = {
       },
     },
     extend: {
-      // fontFamily: { headline: ["Oswald"] },
+      fontFamily: { monts: ["Montserrat", "sans-serif"] },
       colors: {
         bgBody: "#F3F5FD",
         primary: "#2960FF",
         gradient: "#4f71c6",
+        btnYellow: "#FFD34E",
       },
     },
   },
